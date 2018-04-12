@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Food.master.cs" Inherits="Experiment.Food" %>
+
+<!DOCTYPE html>
+
+<html>
+    <head runat="server">
+        <title>
+            <asp:ContentPlaceHolder ID="Title" runat="server">
+
+            </asp:ContentPlaceHolder>
+            </title>
+            <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+            <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css" />
+            <link href="vendor/bootstrap/css/bootstrap-grid.css" rel="stylesheet" />
+	        <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css"/>
+            <link href="css/style.css" rel="stylesheet" />
+            <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet" />
+            <link href="vendor/bootstrap/css/bootstrap-reboot.min.css" rel="stylesheet" />
+            <link href="vendor/bootstrap/css/bootstrap-reboot.css" rel="stylesheet" />
+    </head>
+<body>
+<nav class="nav nav-pills nav-justified bg-dark">
+  <a class="navbar-brand" href="foods.aspx"><img src="images/icons/restaurant-menu-icon-png-28.png"  style="width:80px;height:80px" /></a>
+  <div class="h1 text-light" style="margin-left:-10px; margin-top:20px;">FOOD BOOK</div>
+  <a class="nav-item nav-link text-light " href="foods.aspx"><h3 style="margin-top:20px;">FOOD</h3></a>
+
+  <a class="nav-item nav-link disabled" href="order.aspx"><h3 style="margin-top:20px;">ORDER</h3></a>
+</nav>
+
+<form id="form1" runat="server">
+<div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+     </asp:ContentPlaceHolder>
+</div>
+
+<!--Footer-->
+<footer class="page-footer font-small unique-color-dark pt-0" style="position: fixed;bottom: 0;width: 100%;">
+    <div style="background-color:#353638;">
+        <div class="container">
+            <div class="row py-4 d-flex align-items-center">
+                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0 text-light">
+                    <h6 class="mb-0 white-text">FOODBOOK</h6>
+                </div>
+                <div class="col-md-6 col-lg-7 text-center text-md-right">
+                    <a class="fb-ic ml-0">
+                        <asp:Button ID="Button1" runat="server" Text="LOGOUT" CssClass="btn btn-outline-secondary" OnClick="Button1_Click"/>
+                    </a>                    
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--/.Footer-->
+</form>
+</body>
+</html>

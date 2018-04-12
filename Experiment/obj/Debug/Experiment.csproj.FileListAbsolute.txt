@@ -1,0 +1,9 @@
+F:\DotNet\Experiment\Experiment\bin\Experiment.dll.config
+F:\DotNet\Experiment\Experiment\bin\Experiment.dll
+F:\DotNet\Experiment\Experiment\bin\Experiment.pdb
+F:\DotNet\Experiment\Experiment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\DotNet\Experiment\Experiment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\DotNet\Experiment\Experiment\obj\Debug\Experiment.csprojResolveAssemblyReference.cache
+F:\DotNet\Experiment\Experiment\obj\Debug\Experiment.csproj.CoreCompileInputs.cache
+F:\DotNet\Experiment\Experiment\obj\Debug\Experiment.dll
+F:\DotNet\Experiment\Experiment\obj\Debug\Experiment.pdb
